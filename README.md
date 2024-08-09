@@ -5,3 +5,7 @@ We see three critical differences between programming and software engineering: 
 Interpretando o texto, é possivel entender que Engenharia de Software é mais complexa que simples programação pois há certas preocupações essenciais a se atentar como: o tempo e as possíveis mudanças de acordo com o processo, escala, dizendo sobre o tamanho dl projeto e sua eficiência,e tomada de decisões importantes, visando melhor resultado possível para o produto. 
 
 Assim, necessitando de uma boa estruturação e organização.
+
+Within Google, we sometimes say, “Software engineering is programming integrated over time.” Programming is certainly a significant part of software engineering: after all, programming is how you generate new software in the first place. If you accept this distinction, it also becomes clear that we might need to delineate between programming tasks (development) and software engineering tasks (development, modification, maintenance). The addition of time adds an important new dimension to programming. Cubes aren’t squares, distance isn’t velocity. Software engineering isn’t programming.
+
+O texto esclarece que engenharia de software não é só programação, mesmo ela fazendo parte, engenharia de software é bem mais que isso, com mais processos e responsabilidades.
