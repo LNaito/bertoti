@@ -39,6 +39,7 @@ Escala e crescimento: Como o programa se adapta as situações e cresce.
 Trocas e custos: Se trata em como a organização (ou equipe) usa e interpreta os fundamentos anteriores, afetando suas decisões e próximos passos.
 
 3. Citar 3 Trade-Offs
+
 1 - Optar pelo uso do Windows, porém perdendo as vantagens dadas pelo Linux.
 2 - O custo de um produto e sua capacidade de manutenção.
 3 - A complexidade contra a flexibilidade.
