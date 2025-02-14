@@ -41,5 +41,7 @@ Trocas e custos: Se trata em como a organização (ou equipe) usa e interpreta o
 3. Citar 3 Trade-Offs
 
 1 - Optar pelo uso do Windows, porém perdendo as vantagens dadas pelo Linux.
+
 2 - O custo de um produto e sua capacidade de manutenção.
+
 3 - A complexidade contra a flexibilidade.
