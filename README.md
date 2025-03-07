@@ -39,9 +39,12 @@ Escala e crescimento: Como o programa se adapta as situações e cresce.
 Trocas e custos: Se trata em como a organização (ou equipe) usa e interpreta os fundamentos anteriores, afetando suas decisões e próximos passos.
 
 3. Citar 3 Trade-Offs
-
 1 - Optar pelo uso do Windows, porém perdendo as vantagens dadas pelo Linux.
 
 2 - O custo de um produto e sua capacidade de manutenção.
 
 3 - A complexidade contra a flexibilidade.
+
+4. Comentário do slide 57
+O slide 57 expõe a vantagem de ao longo de uma entrega de um produto, realizar entregas com valor ao invés de partes incompletas de um todo. Como no exemplo citado, se alguém quer um carro, é melhor fornecer aos poucos outros meios de transporte mais simples como um skate, uma bicicleta, uma moto e então um carro, ao invés de entregar as rodas ou um chassi, onde o clinte não conseguirá tirar valor.
+
