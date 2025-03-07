@@ -47,5 +47,6 @@ Trocas e custos: Se trata em como a organização (ou equipe) usa e interpreta o
 3 - A complexidade contra a flexibilidade.
 
 4. Comentário do slide 57
+   
 O slide 57 expõe a vantagem de ao longo de uma entrega de um produto, realizar entregas com valor ao invés de partes incompletas de um todo. Como no exemplo citado, se alguém quer um carro, é melhor fornecer aos poucos outros meios de transporte mais simples como um skate, uma bicicleta, uma moto e então um carro, ao invés de entregar as rodas ou um chassi, onde o clinte não conseguirá tirar valor.
 
