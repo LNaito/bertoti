@@ -50,3 +50,99 @@ Trocas e custos: Se trata em como a organização (ou equipe) usa e interpreta o
    
 O slide 57 expõe a vantagem de ao longo de uma entrega de um produto, realizar entregas com valor ao invés de partes incompletas de um todo. Como no exemplo citado, se alguém quer um carro, é melhor fornecer aos poucos outros meios de transporte mais simples como um skate, uma bicicleta, uma moto e então um carro, ao invés de entregar as rodas ou um chassi, onde o clinte não conseguirá tirar valor.
 
+5. Programa semelhante ao feito em sala: "Biblioteca"
+
+Biblioteca.java
+package biblioteca;
+
+import java.util.List;
+import java.util.LinkedList;
+
+
+public class Biblioteca {
+
+    private List<Livro> livros = new LinkedList<Livro>();
+    
+    public void addLivro (Livro livro) {
+        livros.add(livro);
+    }
+    
+    public Livro buscarLivroNome (String nome) {
+        for(Livro livro:livros) {
+            if(livro.getNome().equals(nome)) return livro;
+        }
+        return null;
+    }
+    
+    public Livro buscarLivroAutor (String autor) {
+        List<Livro> encontrados = new LinkedList<Livro>();
+        for (Livro livro: livros) {
+            if(livro.getAutor().equals(autor)) encontrados.add(livro);
+        }
+        return (Livro) encontrados;
+    }
+    
+    public List<Livro> getLivros(){
+    return livros;
+    }
+   
+}
+
+Livro.java
+package biblioteca;
+
+public class Livro {
+	
+	private String nome;
+	private String autor;
+	
+	public Livro (String nome, String autor, String genero) {
+                this.nome = nome;
+                this.autor = autor;
+        }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getAutor() {
+        return autor;
+    }
+
+}
+
+teste.java
+package biblioteca;
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
+/**
+ *
+ * @author Note Sol
+ */
+class teste {
+    
+    @Test
+    void test(){
+        
+        Biblioteca biblioteca = new Biblioteca();
+        biblioteca.addLivro(new Livro("Livro 1", "Leo"));
+        biblioteca.addLivro(new Livro("Livro 2", "Bertotti"));
+        
+        assertEquals(biblioteca.getLivros().size(), 2);
+        
+        Livro livro = biblioteca.buscarLivroNome("Livro 1");
+        
+        assestEquals(livro.getAutor(), "Leo");
+        
+    }
+    
+}
