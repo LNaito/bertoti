@@ -1,3 +1,4 @@
+package eng3.observer.padrao;
 public interface Notificavel {
     void atualizar(String evento, double valor);
 }

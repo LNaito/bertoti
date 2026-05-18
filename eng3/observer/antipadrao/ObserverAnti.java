@@ -1,3 +1,4 @@
+package eng3.observer.antipadrao;
 class NotificacaoEmail {
     public void enviarEmail(String evento, double valor) {
         System.out.println("[EMAIL] " + evento + " de R$ " + valor);
